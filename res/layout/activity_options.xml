@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/linearLayout_options"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#0099cc"
-    tools:context=".OptionsActivity" >
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-    <!--
-         The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc.
-    -->
 
-    <TextView
+<!--      <TextView
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,28 +16,31 @@
         android:textColor="#33b5e5"
         android:textSize="50sp"
         android:textStyle="bold" />
-
+-->
         <Button
             android:id="@+id/scheduleBtn"
-            android:width="200dp"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
             android:layout_height="wrap_content"
             android:text="@string/scheduleLabel" />
     
 		<Button
             android:id="@+id/recipientsBtn"
-            android:width="200dp"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
             android:layout_height="wrap_content"
             android:text="@string/recipientsLabel" />
         
 		<Button
             android:id="@+id/reportsBtn"
-            android:width="200dp"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+			android:layout_marginLeft="20dip"
+			android:layout_marginRight="20dip"
             android:layout_height="wrap_content"
             android:text="@string/reportsLabel" />
                 
 
 
-</FrameLayout>
+</LinearLayout>

@@ -4,8 +4,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="9"
         android:targetSdkVersion="18" />
 
     <application
@@ -13,7 +14,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
         <activity
-            android:name="com.dsa157.ruok.LoginActivity"
+            android:name="com.dsa157.ruok.view.LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,11 +23,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.dsa157.ruok.OptionsActivity"
+            android:name="com.dsa157.ruok.view.OptionsActivity"
             android:label="@string/app_name">
         </activity>
         <activity
-            android:name="com.dsa157.ruok.CreateAccountActivity"
+            android:name="com.dsa157.ruok.view.CreateAccountActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.dsa157.ruok.view.ScheduleActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.dsa157.ruok.view.RecipientsActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.dsa157.ruok.view.ReportsActivity"
             android:label="@string/app_name">
         </activity>
     </application>

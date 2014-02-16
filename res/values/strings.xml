@@ -3,7 +3,7 @@
 
     <string name="app_name">RUOK</string>
     <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
     <string name="bgColor">#0099cc</string>
     <string name="recipients">recipients</string>
     <string name="reports">reports</string>
@@ -15,8 +15,9 @@
     <string name="create">Create Account</string>
     <string name="idLabel">ID:</string>
     <string name="pwLabel">PW:</string>
-    <string name="scheduleLabel">PW:</string>
-    <string name="recipientsLabel">PW:</string>
-    <string name="reportsLabel">PW:</string>
+    <string name="scheduleLabel">Manage My Schedule</string>
+    <string name="recipientsLabel">Manage My Recipients</string>
+    <string name="reportsLabel">Reports</string>
+    <string name="buttonMargin">20dip</string>
         
 </resources>

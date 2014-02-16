@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dsa157.ruok;
+package com.dsa157.ruok.view;
 
 import android.app.Activity;
 
