@@ -29,21 +29,21 @@
             android:width="200dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/scheduleBtnLabel" />
+            android:text="@string/scheduleLabel" />
     
 		<Button
             android:id="@+id/recipientsBtn"
             android:width="200dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/recipientsBtnLabel" />
+            android:text="@string/recipientsLabel" />
         
 		<Button
             android:id="@+id/reportsBtn"
             android:width="200dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/reportsBtnLabel" />
+            android:text="@string/reportsLabel" />
                 
 
 
