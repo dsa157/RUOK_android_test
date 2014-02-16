@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RUOK</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="bgColor">#0099cc</string>
+    <string name="recipients">recipients</string>
+    <string name="reports">reports</string>
+    <string name="options">options</string>
+    <string name="contacts">contacts</string>
+    <string name="challenges">challenges</string>
+    <string name="schedule">schedule</string>
+    <string name="login">Login</string>
+    <string name="create">Create Account</string>
+    <string name="idLabel">ID:</string>
+    <string name="pwLabel">PW:</string>
+    <string name="scheduleLabel">PW:</string>
+    <string name="recipientsLabel">PW:</string>
+    <string name="reportsLabel">PW:</string>
+        
+</resources>
